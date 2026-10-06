@@ -1,0 +1,61 @@
+/* ──────────────────────────────────────────────────────────────
+   Charli Couverture — éléments de conversion (Google Ads)
+   Chargé par TOUTES les pages : barre d'appel mobile, formulaire
+   de devis court des pages intérieures, page merci.
+   ────────────────────────────────────────────────────────────── */
+
+/* Barre d'action fixe (mobile) */
+.callbar{display:none}
+@media(max-width:760px){
+  .callbar{display:grid;grid-template-columns:1.15fr 1fr;gap:.5rem;position:fixed;left:0;right:0;bottom:0;z-index:150;
+    padding:.55rem .6rem calc(.55rem + env(safe-area-inset-bottom));background:rgba(16,12,8,0.96);
+    border-top:1px solid var(--line);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+  .callbar a{display:flex;align-items:center;justify-content:center;gap:.45rem;min-height:48px;border-radius:12px;
+    font-family:var(--sans);font-size:.95rem;font-weight:700;text-decoration:none}
+  .callbar .cb-call{background:var(--accent);color:#1a140d}
+  .callbar .cb-devis{background:rgba(255,255,255,0.08);color:#fff;border:1px solid rgba(255,255,255,0.25)}
+  body{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+}
+
+/* Formulaire de devis court (pages intérieures) */
+.lead-sec{background:var(--bg3);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.lead-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:3.5rem;align-items:start}
+.lead-intro p{color:var(--muted);margin-top:1.1rem;line-height:1.8;max-width:44ch}
+.lead-intro ul{list-style:none;margin:1.6rem 0 2rem;display:grid;gap:.6rem}
+.lead-intro li{display:flex;gap:.6rem;align-items:center;font-size:.93rem}
+.lead-intro li::before{content:"✓";color:var(--accent2);font-weight:700}
+.lead-form{background:var(--bg2);border:1px solid var(--line);border-radius:18px;padding:2rem}
+.lf-row{display:grid;grid-template-columns:1fr 1fr;gap:.9rem}
+.lf-group{display:flex;flex-direction:column;gap:.4rem;margin-bottom:.95rem}
+.lf-group label{font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2)}
+.lf-group input,.lf-group select,.lf-group textarea{width:100%;padding:.8rem 1rem;min-height:48px;border:1px solid var(--line);
+  border-radius:10px;font-size:1rem;font-family:inherit;color:var(--text);background:var(--bg);appearance:none;-webkit-appearance:none}
+.lf-group select option{color:#1a140d}
+.lf-group textarea{min-height:90px;resize:vertical}
+.lf-group input:focus,.lf-group select:focus,.lf-group textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.lead-form button{width:100%;justify-content:center;min-height:52px;font-size:1rem}
+.lead-form button:disabled{opacity:.55;cursor:not-allowed}
+.lf-mention{font-size:.74rem;color:var(--muted);text-align:center;margin-top:.8rem;line-height:1.6}
+.lf-mention a{color:var(--muted)}
+@media(max-width:960px){.lead-grid{grid-template-columns:1fr;gap:1.6rem}.lead-intro ul,.lead-intro .btn{display:none}}
+@media(max-width:600px){.lf-row{grid-template-columns:1fr;gap:0}.lead-form{padding:1.4rem 1.1rem}}
+
+/* Page merci / mentions */
+.simple-page{min-height:70vh;padding:9rem 0 5rem}
+.simple-page .h-title{margin-bottom:1.2rem}
+.simple-page p,.simple-page li{color:var(--muted);line-height:1.85;margin-bottom:.9rem}
+.simple-page h2{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:2.2rem 0 .7rem;color:var(--text)}
+.simple-page .btns{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem}
+
+/* Bandeau cookies */
+.cookiebar{position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:160;max-width:560px;margin:0 auto;background:#1e1812;
+  border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;display:flex;gap:1rem;align-items:center;flex-wrap:wrap;
+  font-family:var(--sans);font-size:.85rem;color:var(--text)}
+.cookiebar p{flex:1 1 240px;color:var(--muted);line-height:1.6}
+.cookiebar a{color:var(--accent2)}
+.cookiebar div{display:flex;gap:.5rem}
+.cookiebar button{min-height:42px;padding:0 1.1rem;border-radius:10px;font:600 .88rem var(--sans);cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--text)}
+.cookiebar button[data-c="oui"]{background:var(--accent);border-color:var(--accent);color:#1a140d}
+@media(max-width:760px){.cookiebar{bottom:calc(76px + env(safe-area-inset-bottom))}}
+.lf-group select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c98a52' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 1rem center;padding-right:2.5rem;cursor:pointer}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NJ Couverture">
+  <rect width="64" height="64" rx="14" fill="#16120d"/>
+  <!-- cheminée -->
+  <rect x="41" y="14" width="6" height="12" rx="1.5" fill="#c98a52" opacity="0.9"/>
+  <!-- pan de toit -->
+  <path d="M32 13 L57 33 L51 33 L32 18.5 L13 33 L7 33 Z" fill="#e0a468"/>
+  <!-- corps / ardoises -->
+  <path d="M32 22 L49 35.5 V51 H15 V35.5 Z" fill="#c98a52" opacity="0.30"/>
+  <path d="M18 38 H46 M18 44 H46" stroke="#e0a468" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
+</svg>

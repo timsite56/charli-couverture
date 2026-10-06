@@ -1,0 +1,240 @@
+{
+  "nom_entreprise": "Charli Couverture",
+  "type_artisan": "Couvreur",
+  "ville": "Ambérieu-en-Bugey",
+  "telephone_affiche": "06 01 38 20 03",
+  "telephone_tel": "+33601382003",
+  "annee": "2026",
+  "hero": {
+    "image": "images/hero-bg.webp",
+    "titre": "Votre couvreur zingueur à Ambérieu-en-Bugey, 24h/24",
+    "description": "Charli Couverture rénove, répare et entretient vos toitures à Ambérieu-en-Bugey et dans toute la plaine de l'Ain : tuile, bac acier et zinguerie sur mesure. Joignables jour et nuit du lundi au samedi."
+  },
+  "apropos": {
+    "image": "images/apropos.webp",
+    "texte": "Charli Couverture est une entreprise de couverture et de zinguerie installée à Ambérieu-en-Bugey (01500), entre le Bugey et la plaine de l'Ain. Pose et rénovation de toiture, réparation de fuites, couvertures et habillages en zinc, abergements de cheminée, raccords de fenêtres de toit, entretien et démoussage : nous intervenons sur les maisons en pierre du Bugey, les maisons en galets roulés de la plaine, les pavillons et les bâtiments d'activité.\n\nUn travail consciencieux, du zinc façonné et soudé sur place, des devis clairs et gratuits : c'est notre façon de travailler. Joignables 24h/24 du lundi au samedi pour les urgences, nous intervenons à Ambérieu-en-Bugey, Lagnieu, Meximieux, Pont-d'Ain, Saint-Rambert-en-Bugey et dans toutes les communes alentour.",
+    "badges": [
+      "Couvreur zingueur",
+      "Urgences 24h/24",
+      "Devis gratuit"
+    ]
+  },
+  "stats": [
+    {
+      "valeur": "10",
+      "label": "Ans d'expérience"
+    },
+    {
+      "valeur": "150",
+      "label": "Chantiers réalisés"
+    }
+  ],
+  "services": [
+    {
+      "titre": "Pose et rénovation de toiture",
+      "description": "Pose neuve et rénovation complète de votre toiture en tuile mécanique, tuile plate ou bac acier, charpente et liteaux compris.",
+      "image": "images/service1.webp",
+      "page": "pose-renovation-toiture.html"
+    },
+    {
+      "titre": "Réparation et fuite de toiture",
+      "description": "Recherche de fuite, mise hors d'eau et réparation durable : tuiles cassées, faîtage, solins, fenêtres de toit. Joignables 24h/24 du lundi au samedi.",
+      "image": "images/service2.webp",
+      "page": "reparation-fuite-toiture.html"
+    },
+    {
+      "titre": "Zinguerie et couverture zinc",
+      "description": "Gouttières, chéneaux, descentes, noues, abergements de cheminée et couvertures zinc à joint debout, façonnés sur mesure.",
+      "image": "images/service3.webp",
+      "page": "zinguerie.html"
+    },
+    {
+      "titre": "Entretien et démoussage",
+      "description": "Démoussage, nettoyage et traitement hydrofuge de toiture pour prolonger la vie de vos tuiles et éviter les infiltrations.",
+      "image": "images/service4.webp",
+      "page": "entretien-demoussage.html"
+    }
+  ],
+  "avis": {
+    "google_score": "5.0",
+    "nb_avis": "3 avis",
+    "visible": true,
+    "temoignages": [
+      {
+        "initiale": "F",
+        "nom": "Flachet Joel",
+        "texte": "Très bon travail très consciencieux. Je recommande."
+      },
+      {
+        "initiale": "N",
+        "nom": "Nicolas Perret",
+        "texte": "Fuite après un gros orage un samedi soir, Charli est venu bâcher le toit dans la soirée puis a remplacé les tuiles cassées la semaine suivante. Réactif et sérieux, merci."
+      },
+      {
+        "initiale": "M",
+        "nom": "Martine Girod",
+        "texte": "Abergement de cheminée et gouttières refaits en zinc. Travail propre, explications claires et devis respecté. Je recommande sans hésiter."
+      }
+    ]
+  },
+  "galerie": [
+    {
+      "image": "images/gallery1.jpg",
+      "legende": "Couverture zinc à joint debout"
+    },
+    {
+      "image": "images/gallery2.jpg",
+      "legende": "Abergement zinc de cheminée"
+    },
+    {
+      "image": "images/gallery3.jpg",
+      "legende": "Fenêtre de toit et raccord zinc"
+    },
+    {
+      "image": "images/gallery4.jpg",
+      "legende": "Faîtage refait avec closoir"
+    },
+    {
+      "image": "images/gallery5.jpg",
+      "legende": "Rive et habillage zinc"
+    },
+    {
+      "image": "images/gallery6.jpg",
+      "legende": "Gouttière neuve"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Êtes-vous vraiment joignables 24h/24 ?",
+      "reponse": "Oui, du lundi au samedi, jour et nuit, au 06 01 38 20 03. Pour une fuite, nous posons d'abord une protection provisoire, puis nous chiffrons la réparation. Le dimanche, nous sommes fermés."
+    },
+    {
+      "question": "Quels types de toitures réalisez-vous ?",
+      "reponse": "Tuile mécanique, tuile plate, bac acier et zinc : pose neuve, rénovation, réparation, zinguerie, entretien et démoussage."
+    },
+    {
+      "question": "Dans quelles communes intervenez-vous ?",
+      "reponse": "À Ambérieu-en-Bugey et alentour : Saint-Denis-en-Bugey, Château-Gaillard, Ambronay, Douvres, Saint-Rambert-en-Bugey, Lagnieu, Saint-Vulbas, Meximieux, Pont-d'Ain, Saint-Sorlin-en-Bugey, Vaux-en-Bugey, Leyment, Bettant, Torcieu et Chazey-sur-Ain. Contactez-nous pour vérifier votre secteur."
+    },
+    {
+      "question": "Faites-vous les travaux de zinguerie ?",
+      "reponse": "Oui, c'est une grande partie de notre métier : gouttières, chéneaux, noues, abergements de cheminée, raccords de Velux et couvertures zinc à joint debout."
+    },
+    {
+      "question": "Le devis est-il gratuit ?",
+      "reponse": "Oui, le déplacement et le devis sont gratuits et sans engagement, et le devis est détaillé poste par poste."
+    }
+  ],
+  "contact_description": "Décrivez votre projet de toiture et recevez un devis gratuit et détaillé.",
+  "footer_description": "Couvreur zingueur à Ambérieu-en-Bugey, Charli Couverture rénove, répare et entretient vos toitures dans l'Ain, 24h/24 du lundi au samedi.",
+  "design": {
+    "nav_style": "transparent",
+    "stats_style": "classique",
+    "palette": "bleu"
+  },
+  "horaires": {
+    "visible": true,
+    "jours": [
+      {
+        "nom": "Lundi",
+        "ferme": false,
+        "h24": true,
+        "matin_debut": "00:00",
+        "matin_fin": "23:59",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Mardi",
+        "ferme": false,
+        "h24": true,
+        "matin_debut": "00:00",
+        "matin_fin": "23:59",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Mercredi",
+        "ferme": false,
+        "h24": true,
+        "matin_debut": "00:00",
+        "matin_fin": "23:59",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Jeudi",
+        "ferme": false,
+        "h24": true,
+        "matin_debut": "00:00",
+        "matin_fin": "23:59",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Vendredi",
+        "ferme": false,
+        "h24": true,
+        "matin_debut": "00:00",
+        "matin_fin": "23:59",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Samedi",
+        "ferme": false,
+        "h24": true,
+        "matin_debut": "00:00",
+        "matin_fin": "23:59",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      },
+      {
+        "nom": "Dimanche",
+        "ferme": true,
+        "h24": false,
+        "matin_debut": "00:00",
+        "matin_fin": "23:59",
+        "am_active": false,
+        "am_debut": "",
+        "am_fin": ""
+      }
+    ],
+    "adresse": "Ambérieu-en-Bugey (01500)",
+    "lat": 45.9575,
+    "lng": 5.3706
+  },
+  "seo": {
+    "title": "Couvreur à Ambérieu-en-Bugey (01) — toiture, zinguerie, fuite 24h/24 | Charli Couverture",
+    "description": "Charli Couverture, couvreur zingueur à Ambérieu-en-Bugey : rénovation et réparation de toiture, fuite 24h/24, zinguerie, couverture zinc et démoussage dans l'Ain. Devis gratuit au 06 01 38 20 03.",
+    "code_postal": "01500",
+    "departement": "Ain",
+    "geo_region": "FR-01",
+    "lat": 45.9575,
+    "lng": 5.3706,
+    "villes": [
+      "Ambérieu-en-Bugey",
+      "Saint-Denis-en-Bugey",
+      "Château-Gaillard",
+      "Ambronay",
+      "Douvres",
+      "Saint-Rambert-en-Bugey",
+      "Lagnieu",
+      "Saint-Vulbas",
+      "Meximieux",
+      "Pont-d'Ain",
+      "Saint-Sorlin-en-Bugey",
+      "Vaux-en-Bugey",
+      "Leyment",
+      "Bettant",
+      "Torcieu",
+      "Chazey-sur-Ain"
+    ]
+  }
+}
