@@ -870,7 +870,7 @@
       document.getElementById('horairesTable').innerHTML=hor.jours.map(j=>{
         if(j.h24)return `<div class="horaire-row"><span class="horaire-jour">${j.nom}</span><span>Ouvert 24h/24</span></div>`;
         if(j.ferme)return `<div class="horaire-row ferme"><span class="horaire-jour">${j.nom}</span><span>Fermé</span></div>`;
-        let h;if(j.am_active===false||!j.am_debut||!j.am_fin){h=j.matin_debut.replace(':','h')+' - '+j.matin_fin.replace(':','h')}
+        let h;if(j.matin_debut==='00:00'&&(j.matin_fin==='23:59'||j.matin_fin==='24:00')){h='Ouvert 24h/24'}else if(j.am_active===false||!j.am_debut||!j.am_fin){h=j.matin_debut.replace(':','h')+' - '+j.matin_fin.replace(':','h')}
         else{h=j.matin_debut.replace(':','h')+' - '+j.matin_fin.replace(':','h')+' / '+j.am_debut.replace(':','h')+' - '+j.am_fin.replace(':','h')}
         return `<div class="horaire-row"><span class="horaire-jour">${j.nom}</span><span>${h}</span></div>`}).join('');
       if(hor.lat&&hor.lng&&typeof L!=='undefined'){const md=document.getElementById('horaireMap');
